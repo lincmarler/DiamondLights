@@ -1,0 +1,13 @@
+
+  {
+    "name": "diamondlights",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd DiamondLights.client && npm i",
+      "setup:server": "cd DiamondLights && npm i",
+      "start": "node DiamondLights/index.js"
+    }
+  }
+  
