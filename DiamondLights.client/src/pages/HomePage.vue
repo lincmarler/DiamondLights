@@ -8,7 +8,7 @@
 
       </div>
       <div class="col-12 text-center m-5">
-        <h1>Day/night slider</h1>
+        <h1>Day/night slider gang</h1>
       </div>
       <div class="m-5">
         <h1>Quote form</h1>
