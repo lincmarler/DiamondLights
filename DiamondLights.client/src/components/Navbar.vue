@@ -18,17 +18,17 @@
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Residential' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Commercial' }" class="btn text-success lighten-30 selectable text-uppercase">
             Commercial
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Residential' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Contact Us' }" class="btn text-success lighten-30 selectable text-uppercase">
             Contact Us!
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Residential' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Our Process' }" class="btn text-success lighten-30 selectable text-uppercase">
             Our Process
           </router-link>
         </li>
