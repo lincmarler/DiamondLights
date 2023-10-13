@@ -16,7 +16,10 @@ const routes = [
     name: 'About',
     component: loadPage('AboutPage')
   },
-
+{
+  path: '/residential'
+  name: ''
+}
 ]
 
 export const router = createRouter({
