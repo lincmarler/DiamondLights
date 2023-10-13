@@ -17,9 +17,25 @@ const routes = [
     component: loadPage('AboutPage')
   },
 {
-  path: '/residential'
-  name: ''
-}
+  path: '/residential',
+  name: 'Residential',
+  component: loadPage('ResidentialPage')
+},
+{
+  path: '/commercial',
+  name: 'Commercial',
+  component: loadPage('CommercialPage')
+},
+{
+  path: '/contactus',
+  name: 'Contact Us',
+  component: loadPage('ContactUsPage')
+},
+{
+  path: '/process',
+  name: 'Our Process',
+  component: loadPage('OurProcessPage')
+} 
 ]
 
 export const router = createRouter({
