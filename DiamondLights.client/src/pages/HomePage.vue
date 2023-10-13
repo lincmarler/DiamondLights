@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <div class="container bg-dark">
     <section class="row">
-      <div class="col-12 bg-dark text-light">
+      <div class="col-12 text-light">
         <h1>Revolutionizing Lighting</h1>
       </div>
       <div class="col-12 ">
