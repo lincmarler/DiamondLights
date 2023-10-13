@@ -11,30 +11,26 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
+
         <li>
-          <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
-            About
+          <router-link :to="{ name: 'Residential' }" class="btn text-success lighten-30 selectable text-uppercase">
+            Residential
           </router-link>
         </li>
         <li>
-          <h5>
-            Residential
-          </h5>
-        </li>
-        <li>
-          <h5>
+          <router-link :to="{ name: 'Residential' }" class="btn text-success lighten-30 selectable text-uppercase">
             Commercial
-          </h5>
+          </router-link>
         </li>
         <li>
-          <h5>
+          <router-link :to="{ name: 'Residential' }" class="btn text-success lighten-30 selectable text-uppercase">
             Contact Us!
-          </h5>
+          </router-link>
         </li>
         <li>
-          <h5>
+          <router-link :to="{ name: 'Residential' }" class="btn text-success lighten-30 selectable text-uppercase">
             Our Process
-          </h5>
+          </router-link>
         </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->

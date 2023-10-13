@@ -1,5 +1,5 @@
 <template>
-    Residential
+    Our Process
 </template>
 
 <script>

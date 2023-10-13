@@ -1,5 +1,5 @@
 <template>
-    Residential
+    Contact Us
 </template>
 
 <script>
