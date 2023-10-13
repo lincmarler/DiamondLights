@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
+        <h1><i class="mdi mdi-diamond"></i>Diamond Lights</h1>
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -16,20 +16,39 @@
             About
           </router-link>
         </li>
+        <li>
+          <h5>
+            Residential
+          </h5>
+        </li>
+        <li>
+          <h5>
+            Commercial
+          </h5>
+        </li>
+        <li>
+          <h5>
+            Contact Us!
+          </h5>
+        </li>
+        <li>
+          <h5>
+            Our Process
+          </h5>
+        </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
-      <Login />
+
     </div>
   </nav>
 </template>
 
 <script>
-import Login from './Login.vue';
 export default {
   setup() {
     return {}
   },
-  components: { Login }
+  components: {}
 }
 </script>
 

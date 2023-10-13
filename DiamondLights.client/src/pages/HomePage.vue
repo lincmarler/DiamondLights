@@ -1,12 +1,21 @@
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 bg-white rounded elevation-3">
-      <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo"
-        class="rounded-circle">
-      <h1 class="my-5 bg-dark text-white p-3 rounded text-center">
-        Vue 3 Starter
-      </h1>
-    </div>
+  <div class="container">
+    <section class="row">
+      <div class="col-12 bg-dark text-light">
+        <h1>Revolutionizing Lighting</h1>
+      </div>
+      <div class="col-12 ">
+
+      </div>
+      <div class="col-12 text-center m-5">
+        <h1>Day/night slider</h1>
+      </div>
+      <div class="m-5">
+        <h1>Quote form</h1>
+        <h3>Insert name here: </h3>
+        <h3>Phone number: </h3>
+      </div>
+    </section>
   </div>
 </template>
 
